@@ -9,6 +9,7 @@
 "user_id": "string",
 "user_name": "string"
 }
+<img width="1790" height="925" alt="Screenshot 2026-04-16 234223" src="https://github.com/user-attachments/assets/bac449c8-107e-49d6-a082-6221cdb6ff54" />
 
 - Catatan: user_id dan user_name wajib diisi. Maksimal gacha adalah 5 kali per hari untuk setiap user.
 
@@ -18,16 +19,19 @@
 - Fungsi: Menampilkan riwayat gacha spesifik untuk satu user.
 
 - Parameter: Masukkan ID user langsung di akhir URL (Path Parameter) untuk melihat riwayat hadiah yang pernah didapatkan.
+<img width="1919" height="958" alt="Screenshot 2026-04-16 220308" src="https://github.com/user-attachments/assets/c2f99621-5742-4dbe-95a6-2625f8a14527" />
 
 3. GET api/gacha/prizes
    `localhost:5000/api/gacha/prizes`
 
 - Fungsi: Menampilkan daftar seluruh hadiah beserta sisa kuota (quota) dan jumlah yang sudah dimenangkan (winners_count).
+<img width="1796" height="938" alt="Screenshot 2026-04-17 000918" src="https://github.com/user-attachments/assets/a7d8fdaa-a336-46cb-80fa-338b902fc746" />
 
 4. GET api/gacha/winners
    `localhost:5000/api/gacha/winners`
 
 - Fungsi: Menampilkan daftar user yang beruntung mendapatkan hadiah.
+<img width="1919" height="1006" alt="Screenshot 2026-04-16 233936" src="https://github.com/user-attachments/assets/a8786309-9405-40fd-b8f4-df20572308bf" />
 
 ## Development Setup
 
