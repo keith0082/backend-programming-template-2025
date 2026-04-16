@@ -2,7 +2,7 @@ const GachaRepository = require('./gacha-repository');
 const { GachaPrize } = require('../../../models');
 
 const repository = GachaRepository;
-const NO_PRIZE_CHANCE = 0.2;
+const NO_PRIZE_CHANCE = 0.9;
 
 // Fungsi pembantu internal
 function maskName(name) {

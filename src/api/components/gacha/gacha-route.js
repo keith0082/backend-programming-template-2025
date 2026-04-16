@@ -6,7 +6,7 @@ const route = express.Router();
 module.exports = (app) => {
   // Mendaftarkan prefix /gacha ke aplikasi utama
   app.use('/gacha', route);
-  console.log('✅ Gacha routes have been registered!');
+  console.log('Gacha routes have been registered!');
 
   // Endpoint untuk melakukan gacha (POST karena mengubah data/menambah attempt)
   route.post('/roll', gachaController.doGacha);
