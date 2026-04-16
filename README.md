@@ -6,12 +6,11 @@
    `localhost:5000/api/gacha/roll`
 
 {
-"user_id": "string",
-"user_name": "string"
+"user_id": "string"
 }
 <img width="1790" height="925" alt="Screenshot 2026-04-16 234223" src="https://github.com/user-attachments/assets/bac449c8-107e-49d6-a082-6221cdb6ff54" />
 
-- Catatan: user_id dan user_name wajib diisi. Maksimal gacha adalah 5 kali per hari untuk setiap user.
+- Catatan: user_id wajib diisi. Maksimal gacha adalah 5 kali per hari untuk setiap user.
 
 2. GET api/gacha/history?:userId=...
    `localhost:5000/api/gacha/history?:userId=(isi_id_disini)`
