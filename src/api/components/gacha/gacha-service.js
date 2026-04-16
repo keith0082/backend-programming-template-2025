@@ -65,10 +65,12 @@ async function getRemainingPrizes() {
 
 async function getWinners() {
   const attempts = await repository.getAllAttemptsWithPrizes();
-  return attempts.map((attempt) => ({
-    prize: attempt.prizeWon.name,
-    winner: maskName(attempt.userId), 
-  }));
+  return attempts
+    .filter(attempt => attempt.prizeWon != null) // Buang yang gak ada hadiahnya
+    .map((attempt) => ({
+      prize: attempt.prizeWon.name,
+      winner: maskName(attempt.userId),
+    }));
 }
 
 module.exports = {
