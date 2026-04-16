@@ -12,8 +12,8 @@
 
 - Catatan: user_id wajib diisi. Maksimal gacha adalah 5 kali per hari untuk setiap user.
 
-2. GET api/gacha/history?:userId=...
-   `localhost:5000/api/gacha/history?:userId=(isi_id_disini)`
+2. GET api/gacha/history?userId=...
+   `localhost:5000/api/gacha/history?userId=(isi_id_disini)`
 
 - Fungsi: Menampilkan riwayat gacha spesifik untuk satu user.
 
